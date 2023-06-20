@@ -8,6 +8,6 @@ Implement shop interface:
 - Show FPS.
 - Performance optimization, build android apk, push and share github link.
 
-/// Android apk can be found at Build/*
+/// Android apk can be found at [Build/*](https://github.com/TruongXuanHieu-H/StoreDemo/tree/master/Built)
 
 /// Some libraries are ignored while pushing to git due to LFS so that cloned projects may not work as expected.
