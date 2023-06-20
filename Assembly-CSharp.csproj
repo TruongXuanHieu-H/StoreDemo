@@ -56,29 +56,29 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScroll.cs" />
     <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreItemInfo.cs" />
     <Compile Include="Assets\Scripts\FPSCounter.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreUIController.cs" />
-    <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreItem.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\PoolingObject.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\Pooling.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\IScrollItem.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\IPooling.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScrollObject.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScrollRect.cs" />
-    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScroll.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUI.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreShelfData.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\Pooling.cs" />
     <Compile Include="Assets\Scripts\Controllers\Store Controllers\DynamicShelf.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScrollRect.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Scripts\Popup Animation\PopupController.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\IScrollItem.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Scripts\Controllers\Store Controllers\ItemDetailPanelController.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreUIController.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\DynamicScrollObject.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\IPooling.cs" />
+    <Compile Include="Assets\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+    <Compile Include="Assets\Scripts\Dynamic Scroll\Pooling\PoolingObject.cs" />
+    <Compile Include="Assets\Scripts\Controllers\Store Controllers\StoreItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -98,7 +98,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -351,6 +350,9 @@
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
@@ -362,9 +364,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\Unity Projects\2021.3.23f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
