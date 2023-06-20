@@ -10,5 +10,4 @@ Implement shop interface:
 
 ### Android apk can be found at [Built](https://github.com/TruongXuanHieu-H/StoreDemo/tree/master/Built)
 
-Some libraries are ignored while pushing to git due to file size limitation
-So that cloned projects may take more time to open or not work as expected.
+Some libraries are ignored while pushing to git due to file size limitation so that cloned projects may take more time to open or not work as expected.
